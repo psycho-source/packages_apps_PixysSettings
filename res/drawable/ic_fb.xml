@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-19 The Superior OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M 12 2 C 6.489 2 2 6.489 2 12 C 2 17.511 6.489 22 12 22 C 17.511 22 22 17.511 22 12 C 22 6.489 17.511 2 12 2 Z M 12 4 C 16.43 4 
+20 7.57 20 12 C 20 16.014 17.065 19.313 13.219 19.898 L 13.219 14.385 L 15.547 14.385 L 15.912 12.02 L 13.219 12.02 L 13.219 10.727 C 13.219 9.744 13.539 
+8.871 14.459 8.871 L 15.936 8.871 L 15.936 6.807 C 15.676 6.772 15.127 6.695 14.09 6.695 C 11.924 6.695 10.654 7.839 10.654 10.445 L 10.654 12.02 L 8.428 
+12.02 L 8.428 14.385 L 10.654 14.385 L 10.654 19.879 C 6.87 19.241 4 15.97 4 12 C 4 7.57 7.57 4 12 4 Z"
+        android:fillColor="?android:attr/colorControlNormal" />
+</vector>

@@ -57,4 +57,18 @@
     android:summary="@string/miscellaneous_category_summary"
     android:fragment="com.pixys.settings.categories.Miscellaneous"/>
 
+    <PreferenceCategory
+            android:key="about_us"
+            android:title="@string/pixys_about_info" >
+
+    <!-- About us -->
+    <com.pixys.settings.preferences.CardviewPreference
+        android:key="pixys_about_info"
+        android:icon="@drawable/ic_about_us"
+        android:title="@string/pixys_about_info"
+        android:summary="@string/pixys_about_summary"
+        android:fragment="com.pixys.settings.AboutUs" />
+
+   </PreferenceCategory>
+
 </PreferenceScreen>

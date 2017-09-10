@@ -186,4 +186,49 @@
     <string name="brightness_icon_title">Auto brightness icon</string>
     <string name="brightness_icon_summary">Show toggle for adaptive brightness near the slider</string>
 
+    <!-- About PixysOS -->
+    <string name="pixys_about_info">About us</string>
+    <string name="pixys_about_summary">Our introduction and our team</string>
+    <string name="pixys_about_info_summary">PixysOS is an AOSP based Rom which provides stock UI/UX with minimal customisations. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP, it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.</string>
+    <string name="dev_info">About PixysOS</string>
+    <string name="leads">Team Leads</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="facebook_page">Facebook Page</string>
+    <string name="facebook_page_description">Join our Facebook Page</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Join our Telegram discussion group</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="development_support">Development Support</string>
+    <string name="core_designers">Core Designers</string>
+    <string name="designers">Designers</string>
+    <string name="moderator">Moderator</string>
+    <string name="maintainers">Maintainers</string>
+
+    <string name="dev_1">Subins Mani &#40;Subinsmani&#41;</string>
+    <string name="dev1_description">Founder, Lead Source Maintainer</string>
+    <string name="dev_2">Akshay &#40;Akianonymus&#41;</string>
+    <string name="dev2_description">Co-Lead Source Maintainer</string>
+    <string name="dev_3">Shreejoy Dash &#40;AndroidPie9&#41;</string>
+    <string name="dev3_description">Server and Backend API developer</string>
+    <string name="dev_4">Karthik &#40;AxelBlaz3&#41;</string>
+    <string name="dev4_description">Application Developer</string>
+    <string name="dev_5">Nishant &#40;psycho_mods&#41;</string>
+    <string name="dev5_description">Application Developer</string>
+    <string name="dev_6">Swapnil Soni &#40;SoniSins&#41;</string>
+    <string name="dev6_description">Website Develeoper</string>
+    <string name="dev_7">Kbjay &#40;Kbjay&#41;</string>
+    <string name="dev7_description">Lead UX/UI Designer</string>
+    <string name="dev_8">Alessandro Greotto &#40;GeroED&#41;</string>
+    <string name="dev8_description">BootAnimation Developer</string>
+    <string name="dev_9">Rahul Yadav &#40;rahul9999xda&#41;</string>
+    <string name="dev9_description">Telegram Moderator</string>
+    <string name="dev_10">Sweeto &#40;Darkstar085&#41;</string>
+    <string name="dev10_description">Maintaining Source and translations(crowdin)</string>
+    <string name="dev_11">Amar Bajpai &#40;amarbajpai&#41;</string>
+    <string name="dev11_description">Source Maintainer</string>
+    <string name="dev_12">Malvin Garcia &#40;melvingarcia&#41;</string>
+    <string name="dev12_description">Domain Manager</string>
+
 </resources>
