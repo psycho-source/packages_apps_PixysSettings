@@ -204,7 +204,6 @@
     <string name="core_designers">Core Designers</string>
     <string name="designers">Designers</string>
     <string name="moderator">Moderator</string>
-    <string name="maintainers">Maintainers</string>
 
     <string name="dev_1">Subins Mani &#40;Subinsmani&#41;</string>
     <string name="dev1_description">Founder, Lead Source Maintainer</string>
@@ -230,5 +229,15 @@
     <string name="dev11_description">Source Maintainer</string>
     <string name="dev_12">Malvin Garcia &#40;melvingarcia&#41;</string>
     <string name="dev12_description">Domain Manager</string>
+
+    <!-- Maintainer section -->
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainer_description">Maintainer: %1$s</string>
+    <string name="maintainers_title">Official maintainers</string>
+    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+    <string name="loading_devices">Loading devices list...</string>
+    <string name="loading_devices_failed">Failed to load devices list</string>
+    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
+    <string name="reload_list">Reload</string>
 
 </resources>

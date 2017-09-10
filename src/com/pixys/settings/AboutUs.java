@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 PixysOS Project
+ * Copyright (C) 2018 - 2019 PixysOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -9,8 +9,7 @@
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or 
-implied.
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
@@ -19,9 +18,12 @@ package com.pixys.settings;
 
 import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.R;
+import android.net.Uri;
+import android.content.Intent;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
-import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.internal.logging.nano.MetricsProto;
 
 public class AboutUs extends SettingsPreferenceFragment {
 
@@ -30,11 +32,11 @@ public class AboutUs extends SettingsPreferenceFragment {
        super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.about_us);
+
     }
 
     @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.PIXYS;
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.PIXYS;
     }
-
 }
