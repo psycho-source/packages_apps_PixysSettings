@@ -38,4 +38,11 @@
             android:fragment="com.pixys.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
+        <!-- Notifications -->
+        <Preference
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.pixys.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notifications"/>
+
 </PreferenceScreen>
