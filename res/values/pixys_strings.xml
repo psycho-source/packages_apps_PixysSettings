@@ -97,6 +97,8 @@
     <string name="hardware_keys_double_tap_title">Double tap action</string>
     <string name="hardware_keys_category">Hardware keys</string>
     <string name="hardware_keys_disable_title">Disable keys</string>
+    <string name="navbar_toggle_title">Allow navigation bar</string>
+    <string name="navbar_toggle_summary">Enable or disable navigation bar</string>
 
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
