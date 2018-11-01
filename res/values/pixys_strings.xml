@@ -156,4 +156,6 @@
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
+    <string name="qs_styles_dialog_title">Select a QS tile style</string>
+
 </resources>
