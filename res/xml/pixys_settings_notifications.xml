@@ -37,4 +37,9 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <Preference
+            android:title="@string/traffic_title"
+            android:key="traffic"
+            android:fragment="com.pixys.settings.fragments.Traffic" />
+
 </PreferenceScreen>
