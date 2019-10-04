@@ -57,6 +57,14 @@
     android:summary="@string/miscellaneous_category_summary"
     android:fragment="com.pixys.settings.categories.Miscellaneous"/>
 
+<!-- Notification -->
+<com.pixys.settings.preferences.CardviewPreference
+    android:key="notification_category"
+    android:icon="@drawable/ic_notification"
+    android:title="@string/notification_category"
+    android:summary="@string/notification_category_summary"
+    android:fragment="com.pixys.settings.fragments.Notification"/>
+
     <PreferenceCategory
             android:key="about_us"
             android:title="@string/pixys_about_info" >
