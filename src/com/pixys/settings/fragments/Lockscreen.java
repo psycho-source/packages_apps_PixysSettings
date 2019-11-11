@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The Dirty Unicorns Project
+ * Copyright (C) 2017 AospExtended ROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,43 +14,54 @@
  * limitations under the License.
  */
 
-package com.pixys.settings.categories;
+package com.pixys.settings.fragments;
 
+import android.app.ActivityManagerNative;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.preference.ListPreference;
-import android.preference.SwitchPreference;
-import android.preference.Preference;
-import android.preference.PreferenceCategory;
-import android.preference.PreferenceScreen;
-import android.preference.Preference.OnPreferenceChangeListener;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import androidx.preference.Preference;
+import androidx.preference.ListPreference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
+import android.util.Log;
+import android.view.WindowManagerGlobal;
+import android.view.IWindowManager;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import java.util.Locale;
+import android.text.TextUtils;
+import android.view.View;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class Lockscreen extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
-
-    private static final String TAG = "Lockscreen";
+public class Lockscreen extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.lockscreen);
+        addPreferencesFromResource(R.xml.Lockscreen);
 
-        ContentResolver resolver = getActivity().getContentResolver();
+        final ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefSet = getPreferenceScreen();
+
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS;
+        return MetricsEvent.PIXYS;
     }
 
     @Override
@@ -59,13 +70,7 @@ public class Lockscreen extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
-    }
-
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        final String key = preference.getKey();
-        return true;
+        return false;
     }
-
 }
