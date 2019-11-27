@@ -501,4 +501,11 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="content_padding">Corner content padding</string>
+    <string name="corner_fwvals_title">Use framework values</string>
+    <string name="corner_fwvals_summary">Use the default values for your device</string>
+
 </resources>
