@@ -24,6 +24,7 @@
     <string name="lockscreen">Zamykací obrazovka</string>
     <string name="lockscreen_summary">Přizpůsobte si vaši zamikací obrazovku</string>
     <string name="miscellaneous_category">Ostatní</string>
+    <string name="miscellaneous_category_summary">Přizpůsobení s různými nastaveními</string>
     <string name="notification_category">Notifikace</string>
     <string name="gesture_settings_title">Gesta</string>
     <!--3-Finger screenshot-->
@@ -62,9 +63,15 @@
     <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlené</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalené</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročení</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Dvojím poklepání na zamykací obrazovku uvedete zařízení do režimu spánku</string>
     <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Uspat dvojitým poklepáním na stavovou lištu</string>
     <!-- Status bar - Network Traffic -->
+    <string name="traffic_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_title">Síťový provoz</string>
+    <string name="network_traffic_settings_title">Sledování síťového provozu</string>
     <!-- Buttons backlight timeout -->
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
@@ -89,4 +96,14 @@
     <!-- Battery light -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Gaming mode -->
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

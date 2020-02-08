@@ -15,6 +15,9 @@
     <!-- App Title -->
     <string name="pixys_settings_title">گشت‌و‌گذار</string>
     <!-- Categories -->
+    <string name="status_bar">نوار وضعیت</string>
+    <string name="status_bar_summary">نمادها را در نوار وضعیت شخصی کنید \"</string>
+    <string name="buttons">دکمه‌‌ها</string>
     <string name="miscellaneous_category">متفرقه</string>
     <string name="miscellaneous_category_summary">شخصی‌سازی با برخی تنظیمات متفرقه</string>
     <string name="gesture_settings_title">ژست‌های حرکتی</string>
@@ -153,4 +156,14 @@
     <!-- Battery light -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Gaming mode -->
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

@@ -191,6 +191,7 @@
     <string name="dev8_description">ブートアニメ開発者</string>
     <string name="dev_9">Rahul Yadav &#40;rahul9999xda&#41;</string>
     <string name="dev9_description">Telegram 管理者</string>
+    <string name="dev_10">Sipun Ku Mahanta &#40;Darkstar085&#41;</string>
     <string name="dev10_description">ソースの管理と翻訳 (Crowdin)</string>
     <string name="dev_11">Amar Bajpai &#40;amarbajpai&#41;</string>
     <string name="dev11_description">ソースメンテナ</string>
@@ -313,4 +314,14 @@
     <string name="gaming_mode_notifications_all_title">トーストと通知を表示</string>
     <string name="gaming_mode_dynamic_title">ダイナミックモード</string>
     <string name="gaming_mode_dynamic_summary">ゲームアプリを自動的に判別して追加しようとします</string>
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

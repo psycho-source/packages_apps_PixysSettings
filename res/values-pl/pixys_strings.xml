@@ -15,9 +15,20 @@
     <!-- App Title -->
     <string name="pixys_settings_title">Odkrywaj</string>
     <!-- Categories -->
+    <string name="status_bar">Pasek stanu</string>
+    <string name="status_bar_summary">Dostosuj swoje ikony paska statusu</string>
+    <string name="buttons">Przyciski</string>
+    <string name="buttons_summary">Ustawienia klawiszy sprzętowych</string>
+    <string name="quick_settings">Szybkie ustawienia</string>
+    <string name="quick_settings_summary">Dostosuj szybkie ustawienia</string>
+    <string name="lockscreen">Ekran blokady</string>
+    <string name="lockscreen_summary">Dostosuj ekran blokady</string>
     <string name="miscellaneous_category">Inne</string>
     <string name="miscellaneous_category_summary">Dostosuj za pomocą innych ustawień</string>
+    <string name="notification_category">Powiadomienie</string>
+    <string name="notification_category_summary">Wyskakujące powiadomienia</string>
     <string name="gesture_settings_title">Gesty</string>
+    <string name="gesture_settings_title_summary">Dostosuj urządzenie za pomocą gestów</string>
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Gest przesunięcia trzema palcami</string>
     <string name="three_finger_gesture_summary">Przesuń trzema palcami, aby zrobić zrzut ekranu</string>
@@ -137,11 +148,35 @@
     <string name="roaming_indicator_icon_title">Wskaźnik roamingu</string>
     <string name="roaming_indicator_icon_summary">Wyświetlaj wskaźnik roamingu kiedy telefon się w nim znajduje</string>
     <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Pozycja suwaka jasności</string>
+    <string name="qs_brightness_slider_hide">Ukryty</string>
+    <string name="qs_brightness_slider_top">U góry</string>
+    <string name="qs_brightness_slider_bottom">Przesuń w dół</string>
     <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Ikona automatycznej jasności</string>
+    <string name="brightness_icon_summary">Pokaż przełącznik dla automatycznej jasności blisko suwaka</string>
     <!-- About PixysOS -->
+    <string name="pixys_about_info">O nas</string>
+    <string name="pixys_about_summary">Wprowadzenie i nasz zespół</string>
+    <string name="telegram">Telegram</string>
     <!-- Maintainer section -->
     <!-- Battery -->
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Przerywany okrąg</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg wypełniony</string>
+    <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <string name="battery_percentage_title">Procent baterii</string>
+    <string name="battery_percentage_off">Wyłączone</string>
+    <string name="battery_percentage_on">Włączone</string>
+    <string name="battery_percentage_charging">Włączone (Ładowanie na miejsce)</string>
     <!-- Heads up -->
+    <string name="notification_stat">Pasek statusu</string>
+    <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
+    <string name="heads_up_notifications_summary">Powiadomienia pop up na pasku statusu</string>
+    <string name="add_heads_up_package">Dodaj aplikacje</string>
+    <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
+    <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia w tych aplikacjach</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
     <!-- Heads up timeout -->
     <!-- Heads up snooze -->
     <!-- Heads up options -->
@@ -153,4 +188,14 @@
     <!-- Battery light -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Gaming mode -->
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

@@ -191,6 +191,7 @@
     <string name="dev8_description">Açılış Animasyonu Tasarımcısı</string>
     <string name="dev_9">Rahul Yadav &#40;rahul9999xda&#41;</string>
     <string name="dev9_description">Telegram Moderatörü</string>
+    <string name="dev_10">Sipun Ku Mahanta &#40;Darkstar085&#41;</string>
     <string name="dev10_description">Kaynak ve Çeviri (Crowdin) Sorumlusu</string>
     <string name="dev_11">Amar Bajpai &#40;amarbajpai&#41;</string>
     <string name="dev11_description">Kaynak Sorumlusu</string>
@@ -313,4 +314,14 @@
     <string name="gaming_mode_notifications_all_title">Hızlı bildirim ve normal bildirim göster</string>
     <string name="gaming_mode_dynamic_title">Dinamik mod</string>
     <string name="gaming_mode_dynamic_summary">Otomatik olarak oyunları bulmaya ve eklemeye çalış</string>
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

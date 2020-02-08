@@ -13,12 +13,62 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+    <string name="pixys_settings_title">Explorar</string>
     <!-- Categories -->
+    <string name="status_bar">Barra de Estado</string>
+    <string name="status_bar_summary">Personaliza tus iconos en la barra de estado\"</string>
+    <string name="buttons">Botones</string>
+    <string name="buttons_summary">Personalizar las teclas físicas</string>
+    <string name="quick_settings">Ajustes Rápidos</string>
+    <string name="quick_settings_summary">Personalizar Ajustes Rápidos</string>
+    <string name="lockscreen">Pantalla de bloqueo</string>
+    <string name="lockscreen_summary">Personalizar pantalla de bloqueo</string>
+    <string name="miscellaneous_category">Misceláneos</string>
+    <string name="miscellaneous_category_summary">Personalizar Con Algunos Ajustes Misceláneos</string>
+    <string name="notification_category">Notificación</string>
+    <string name="notification_category_summary">Personalizar Notificaciones</string>
+    <string name="gesture_settings_title">Gestos</string>
+    <string name="gesture_settings_title_summary">Personaliza Tu Dispositivo con Gestos</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Gesto a tres dedos</string>
+    <string name="three_finger_gesture_summary">Arrastra 3 dedos para captura de pantalla</string>
     <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Restablecer</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="general_category">General</string>
+    <string name="gestures_category">Gestos</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Seleccione el color para aplicarlo</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Establecer</string>
+    <string name="color_default">Por defecto</string>
     <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar los iconos de Ajustes Rápidos</string>
     <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_title">Animaciones</string>
+    <string name="qs_tile_animation_style_title">Estilo de animación</string>
+    <string name="qs_tile_animation_duration_title">Duración de la animación</string>
+    <string name="qs_tile_animation_interpolator_title">Animación de interpolación de iconos</string>
+    <string name="qs_tile_animation_style_off">Sin animación</string>
+    <string name="qs_tile_animation_style_flip">Voltear</string>
+    <string name="qs_tile_animation_style_rotate">Rotar</string>
+    <string name="qs_tile_animation_duration_low">Corta</string>
+    <string name="qs_tile_animation_duration_default">Por defecto</string>
+    <string name="qs_tile_animation_duration_fast">Rápida</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Ralentizar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar ralentizar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Adelantar</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double tap-to-sleep -->
     <!-- Status bar - Network Traffic -->
@@ -46,4 +96,14 @@
     <!-- Battery light -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Gaming mode -->
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>

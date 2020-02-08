@@ -13,12 +13,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+    <string name="pixys_settings_title">Explorar</string>
     <!-- Categories -->
+    <string name="status_bar">Barra de status</string>
+    <string name="status_bar_summary">Personalize seus ícones da Barra de Status\"</string>
+    <string name="buttons">Botões</string>
+    <string name="buttons_summary">Personalizar teclas de hardware</string>
+    <string name="quick_settings">Configurações rápidas</string>
+    <string name="quick_settings_summary">Personalize suas Configurações Rápidas</string>
+    <string name="lockscreen">Tela de bloqueio</string>
+    <string name="lockscreen_summary">Personalizar sua tela de bloqueio</string>
+    <string name="miscellaneous_category">Diversos</string>
+    <string name="miscellaneous_category_summary">Personalize com Algumas Configurações Diversas</string>
+    <string name="notification_category">Notificação</string>
+    <string name="notification_category_summary">Personalize suas configurações de notificação</string>
+    <string name="gesture_settings_title">Gestos</string>
+    <string name="gesture_settings_title_summary">Personalize Seu Dispositivo com Gestos</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Gesto com três dedos</string>
+    <string name="three_finger_gesture_summary">Deslizar 3 dedos para captura de tela</string>
     <!-- General strings -->
+    <string name="ok">Certo</string>
+    <string name="reset">Redefinir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="general_category">Geral</string>
+    <string name="gestures_category">Gestos</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Seleção de cores</string>
+    <string name="press_color_to_apply">Toque na cor abaixo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Definir</string>
+    <string name="color_default">Padrão</string>
     <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrar ao tocar tela</string>
+    <string name="quick_settings_vibrate_summary">Vibrar ao tocar os botões QS</string>
     <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_title">Animações</string>
+    <string name="qs_tile_animation_style_title">Estilo da animação</string>
+    <string name="qs_tile_animation_duration_title">Duração da animação</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de animação das tiles</string>
+    <string name="qs_tile_animation_style_off">Sem animação</string>
+    <string name="qs_tile_animation_style_flip">Girar</string>
+    <string name="qs_tile_animation_style_rotate">Rodar</string>
+    <string name="qs_tile_animation_duration_low">Baixa</string>
+    <string name="qs_tile_animation_duration_default">Padrão</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double tap-to-sleep -->
     <!-- Status bar - Network Traffic -->
@@ -46,4 +88,14 @@
     <!-- Battery light -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Gaming mode -->
+    <!-- Notifications while screen on -->
+    <!-- Status bar clock and date options -->
+    <!-- Lock screen cover art -->
+    <!-- Lock screen media blur -->
+    <!-- Fingerprint unlock -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Smart Pixels -->
+    <!-- Aggressive battery -->
+    <!-- Incall vibrate options -->
+    <!-- QS blur -->
 </resources>
