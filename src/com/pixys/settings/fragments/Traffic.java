@@ -41,8 +41,8 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.pixys.settings.CustomSeekBarPreference;
-import com.pixys.settings.CustomSettingsPreferenceFragment;
+import com.pixys.settings.preferences.CustomSeekBarPreference;
+import com.pixys.settings.preferences.CustomSettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
 
