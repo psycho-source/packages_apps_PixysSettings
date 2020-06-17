@@ -25,15 +25,15 @@
     <string name="quick_settings_summary">Personalizar Ajustes Rápidos</string>
     <string name="lockscreen">Pantalla de bloqueo</string>
     <string name="lockscreen_summary">Personalizar pantalla de bloqueo</string>
-    <string name="miscellaneous_category">Misceláneos</string>
-    <string name="miscellaneous_category_summary">Personalizar Con Algunos Ajustes Misceláneos</string>
+    <string name="miscellaneous_category">Varios</string>
+    <string name="miscellaneous_category_summary">Personalizar Con Algunos Ajustes Varios</string>
     <string name="notification_category">Notificación</string>
     <string name="notification_category_summary">Personalizar Notificaciones</string>
     <string name="gesture_settings_title">Gestos</string>
     <string name="gesture_settings_title_summary">Personaliza Tu Dispositivo con Gestos</string>
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Gesto a tres dedos</string>
-    <string name="three_finger_gesture_summary">Arrastra 3 dedos para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Deslizar tres dedos para hacer captura de pantalla</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Restablecer</string>
@@ -69,9 +69,9 @@
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Ralentizar</string>
     <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar ralentizar</string>
     <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Adelantar</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Sobregiro</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar giro</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar sobregiro</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
@@ -93,16 +93,16 @@
     <string name="backlight_timeout_30s">30 seg</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Retroiluminación</string>
-    <string name="button_brightness_sw_title">Habilitar retroiluminación</string>
-    <string name="button_backlight_on_touch_only_title">Toque de botones</string>
-    <string name="button_backlight_on_touch_only_summary">Habilitar la retroiluminación con tiempo de espera solo al tocar los botones</string>
+    <string name="button_brightness_sw_title">Activar retroiluminación</string>
+    <string name="button_backlight_on_touch_only_title">Botones táctiles</string>
+    <string name="button_backlight_on_touch_only_summary">Activar luz de fondo con tiempo de espera sólo en botones táctiles</string>
     <!-- HW Keys customization -->
     <string name="picker_activities">Actividades</string>
-    <string name="select_custom_app_title">Seleccionar aplicación personalizada</string>
+    <string name="select_custom_app_title">Elegir ap. personalizada</string>
     <string name="select_custom_activity_title">Seleccionar actividad personalizada</string>
     <string name="profile_applist_title">Applicaciones</string>
     <string name="choose_action_title">Seleccionar acción</string>
-    <string name="action_entry_default_action">Configuración predeterminada</string>
+    <string name="action_entry_default_action">Ajustes por defecto</string>
     <string name="action_entry_select_app">Seleccionar aplicación</string>
     <string name="action_entry_custom_action">Seleccionar acción personalizada</string>
     <string name="hardware_keys_home_key_title">Botón inicio</string>
@@ -118,20 +118,20 @@
     <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
     <string name="hardware_keys_category">Teclas físicas</string>
     <string name="hardware_keys_disable_title">Desactivar botones físicos</string>
-    <string name="hardware_keys_disable_summary">Desactivar las teclas hardware del dispositivo</string>
+    <string name="hardware_keys_disable_summary">Desactivar las teclas físicas del dispositivo</string>
     <!-- ANBI -->
     <string name="anbi_title">Toques accidentales</string>
     <string name="anbi_summary">Prevenir la interacción con los botones de navegación mientras se toca la pantalla</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
-    <string name="data_disabled_icon_summary">Mostrar el símbolo de una cuz junto a la barra de señal cuando se deshabilitan los datos</string>
+    <string name="data_disabled_icon_title">Mostrar icono de datos moviles desactivados</string>
+    <string name="data_disabled_icon_summary">Mostrar icono de cruz cuando los datos estén apagados</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar ícono de 4G en lugar de LTE</string>
     <!-- Roaming indicator icon -->
-    <string name="icons_category">Iconos de red</string>
+    <string name="icons_category">Iconos de tráfico de red</string>
     <string name="roaming_indicator_icon_title">Indicador de roaming</string>
-    <string name="roaming_indicator_icon_summary">Mostrar indicador de roaming en el ícono de señal cuando se esté en modo roaming</string>
+    <string name="roaming_indicator_icon_summary">Mostrar el icono de Roaming cuando se esté conectado mediante este modo</string>
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider_title">Posición de la barra de brillo</string>
     <string name="qs_brightness_slider_hide">Oculto</string>
@@ -139,11 +139,11 @@
     <string name="qs_brightness_slider_bottom">Abajo</string>
     <!-- Quick settings brightness icon -->
     <string name="brightness_icon_title">Icono de brillo automático</string>
-    <string name="brightness_icon_summary">Mostrar el interruptor de brillo automático al lado de la barra de brillo</string>
+    <string name="brightness_icon_summary">Mostrar el icono de brillo automático al lado de la barra de brillo</string>
     <!-- About PixysOS -->
     <string name="pixys_about_info">Acerca de nosotros</string>
     <string name="pixys_about_summary">Nuestra presentación y nuestro equipo</string>
-    <string name="pixys_about_info_summary">PixysOS es una ROM basa en AOSP que proporciona una UI/UX stock con mínimas modificaciones. Este projecto se ha realizado seleccionando varias opciones de diferentes proyectos. Siendo basada en AOSP, proporciona una experiencia fluida y sin lag. Constantemente intentaremos añadir nuevas opciones para hacer mejor este proyecto.</string>
+    <string name="pixys_about_info_summary">PixysOS es una ROM basada en AOSP que proporciona una UI/UX stock con mínimas modificaciones. Este projecto se ha realizado seleccionando varias opciones de diferentes proyectos. Siendo basada en AOSP, proporciona una experiencia fluida y sin lag. Constantemente intentaremos añadir nuevas opciones para hacer mejor este proyecto.</string>
     <string name="dev_info">Acerca de PixysOS</string>
     <string name="leads">Líderes del equipo</string>
     <string name="github">Github</string>
@@ -151,9 +151,9 @@
     <string name="facebook_page">Página de Facebook</string>
     <string name="facebook_page_description">Síguenos en nuestra página de Facebook</string>
     <string name="telegram">Telegram</string>
-    <string name="telegram_description">Únete a nuestro grupo de discusión en Telegram</string>
+    <string name="telegram_description">Suscríbete a nuestro canal de Telegram</string>
     <string name="web">Centro de descargas</string>
-    <string name="web_description">Visita nuestro portal de descargas</string>
+    <string name="web_description">Visita nuestra pagina de descargas</string>
     <string name="development_support">Apoyo al desarrollo</string>
     <string name="core_designers">Diseñadores del núcleo</string>
     <string name="designers">Diseñadores</string>
@@ -199,7 +199,7 @@
     <string name="status_bar_battery_style_dotted_circle">Círculo (punteado)</string>
     <string name="status_bar_battery_style_filled_circle">Círculo (Lleno)</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="battery_percentage_title">Porcentaje de la batería</string>
+    <string name="battery_percentage_title">Porcentaje de batería</string>
     <string name="battery_percentage_off">Desactivado</string>
     <string name="battery_percentage_on">Activado</string>
     <string name="battery_percentage_charging">Activado (mientras se está cargando)</string>
@@ -228,20 +228,18 @@
     <string name="heads_up_snooze_title">Temporizador de reposo</string>
     <string name="heads_up_snooze_summary_one_minute">Deslizar arriba sobre notificaciones para silenciar la aplicación durante 1 minuto</string>
     <string name="heads_up_snooze_summary">Deslizar hacia arriba sobre las notificaciones emergentes las silenciara por <xliff:g id="number">%d</xliff:g> minutos</string>
-    <string name="heads_up_snooze_disabled_summary">Temporizador de reposo deshabilitado</string>
+    <string name="heads_up_snooze_disabled_summary">El temporizador de postergado está desactivado</string>
     <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minutos</string>
     <string name="heads_up_snooze_10min">10 minutos</string>
     <string name="heads_up_snooze_15min">15 minutos</string>
     <string name="heads_up_snooze_20min">20 minutos</string>
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Notificaciones emergentes menos aburridas</string>
+    <string name="less_boring_heads_up_title">Notificaciones emergentes menos molestas</string>
     <string name="less_boring_heads_up_summary">Mostrar notificaciones emergentes sólo para la aplicación de teléfono y alarma</string>
     <!-- Volume rocker music control -->
     <string name="volume_title">Botones de Volumen</string>
     <string name="volume_summary">Personaliza la configuración de los botones de volumen</string>
-    <string name="volume_rocker_music_controls_title">Control de reproducción</string>
-    <string name="volume_rocker_music_controls_summary">Cuando la pantalla esté apagada, una pulsación larga de los botones de volumen, cambiará de canción</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Despertar dispositivo</string>
     <string name="volume_rocker_wake_summary">Presiona los botones de volumen para despertar el dispositivo</string>
@@ -287,7 +285,7 @@
     <string name="gaming_mode_hardware_keys_summary">Desactivar botones físicos cuando el modo Gaming está activado</string>
     <string name="gaming_mode_brightness_title">Desactivar brillo automático</string>
     <string name="gaming_mode_brightness_summary">Bloquear brillo de la pantalla cuando el modo Gaming este activado</string>
-    <string name="gaming_mode_ringer_title">Timbrar en modo Gaming</string>
+    <string name="gaming_mode_ringer_title">Sonar en modo Gaming</string>
     <string name="gaming_mode_ringer_off_title">No cambiar</string>
     <string name="gaming_mode_ringer_vibrate_title">Vibrar</string>
     <string name="gaming_mode_ringer_dnd_title">No Molestar</string>
@@ -318,7 +316,7 @@
     <string name="clock_date_display_summary">Mostrar fecha personalizada antes del reloj</string>
     <string name="clock_date_style">Estilo de la fecha</string>
     <string name="clock_date_format">Formato de la Fecha</string>
-    <string name="clock_date_string_edittext_title">Debe ser por ejemplo en MM/dd/aa</string>
+    <string name="clock_date_string_edittext_title">Debe ser por ejemplo en mes/dia/año</string>
     <string name="clock_date_string_edittext_summary">Introduzca el texto</string>
     <string name="am_pm_clock_normal">Tamaño de la letra Normal</string>
     <string name="am_pm_clock_small">Tamaño de la letra Pequeño</string>
@@ -367,20 +365,65 @@
     <string name="incall_vibrate_connect_title">Vibrar al Conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar con llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
-    <!-- QS blur -->
-    <string name="qs_blur_alpha_title">Desenfoque alfa</string>
-    <string name="blur_quicksettings">Desenfoque detrás de la cortina de notificaciones (beta)</string>
-    <string name="blur_quicksettings_subtitle">desenfoca el fondo oscurecido detrás de la cortina de notificaciones</string>
-    <string name="qs_blur_alpha_summary">Establece la transparencia del desenfoque</string>
-    <string name="qs_blur_intensity_title">Intensidad del desenfoque</string>
-    <string name="qs_blur_intensity_summary">Establece la intensidad/radio del desenfoque</string>
     <!-- Toast app icon -->
+    <string name="toast_icon_title">Ícono de la aplicación Toast</string>
+    <string name="toast_icon_summary">Muestra el icono de la aplicación que ha emitido una notificación Toast</string>
     <!-- Battery Bar -->
-    <!-- QuickSettings Panel Transparency -->
-    <!-- AOSP Gestures -->
+    <string name="battery_bar_title">Barra de batería</string>
+    <string name="battery_bar_summary">Decorar barra de batería</string>
+    <string name="battery_bar_location">Ubicación de la barra de batería</string>
+    <string name="battery_bar_color">Color de la barra de batería</string>
+    <string name="battery_bar_charging_color">Color de barra de bateria mientras carga</string>
+    <string name="battery_bar_battery_low_color">Color de barra de bateria en bateria baja</string>
+    <string name="battery_bar_style_title">Estilo de la barra de batería</string>
+    <string name="battery_bar_thickness_title">Grosor de barra de batería</string>
+    <string name="battery_bar_animate_title">Animación de carga</string>
+    <string name="battery_bar_animate_summary">La animación de carga puede resultar en una mala experiencia de usuario. Habilitar a su propia discreción.</string>
+    <string name="battery_bar_hide">Oculta</string>
+    <string name="battery_bar_statusbar">Barra de Estado</string>
+    <string name="battery_bar_topnav">Sobre la barra de navegación</string>
+    <string name="battery_bar_bottomnav">Abajo de la barra de navegación</string>
+    <string name="battery_bar_reg">Regular</string>
+    <string name="battery_bar_center">Centrada-reflejada</string>
+    <string name="battery_bar_reversed">Revertida</string>
+    <string name="battery_bar_use_gradient_color">Usar degradado de color</string>
+    <string name="battery_bar_gradient_color_summary">Utilizar color degradado como escala para el nivel de batería</string>
+    <string name="battery_bar_high_color">Color de nivel alto</string>
+    <string name="battery_bar_low_color">Color de nivel bajo\"</string>
+    <!-- Gestures -->
+    <string name="gesture_preference_pixys">Gestos Pixys</string>
+    <string name="gesture_preference_aosp">Gestos AOSP</string>
+    <string name="gesture_double_tap_power_input_summary">Pulse dos veces el botón de encendido</string>
+    <string name="gesture_system_navigation_input_summary">Navegación por gestos</string>
+    <string name="gesture_prevent_ringing_screen_summary">Pulse subir volumen + botón de encendido</string>
+    <string name="gesture_adaptive_playback_summary">Control de la reproducción de música</string>
+    <string name="volume_button_music_control_sumary">Saltar pistas de música usando el botón de volumen</string>
     <!-- Old mobile icon -->
+    <string name="use_old_mobiletype_title">Usar indicador de red móvil antiguo</string>
+    <string name="use_old_mobiletype_summary">Mostrar el estilo de icono de señal usado desde android KitKat</string>
     <!-- StatusBar -->
+    <string name="status_bar_system_icons_title">Elementos del sistema</string>
+    <string name="status_bar_system_icons_summary">Activar o desactivar iconos del sistema en la barra de estado</string>
     <!-- Network traffic -->
     <string name="traffic_title">Indicadores de tráfico</string>
+    <string name="traffic_title_summary">Personalizar indicadores de tráfico de red</string>
     <string name="network_traffic_title">Tráfico de red</string>
+    <string name="network_traffic_type">Seleccionar el tipo de actividad de red</string>
+    <string name="show_network_traffic_up">Subida</string>
+    <string name="show_network_traffic_down">Bajada</string>
+    <string name="show_network_traffic_all">Subida y Bajada</string>
+    <string name="network_traffic_state_title">Mostrar velocidad de la red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Tráfico de red mínimo para ocultar actividad (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar las flechas del indicador de tráfico de red</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="miscellaneous_section">Ajustes varios</string>
+    <string name="lockscreen_battery_info_title">Información de carga en la pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Mostrar la corriente máxima del cargador, voltaje y temperatura de la batería en la pantalla de bloqueo durante la carga</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Mostrar notificaciones</string>
+    <string name="notification_headers_summary">Mostrar las notificaciones al estilo Android R (Requiere un reinicio de SystemUI)</string>
+    <!-- QS edit icon -->
+    <string name="qs_edit_title">Editar icono</string>
+    <string name="qs_edit_summary">Habilitar botón para editar accesos rápidos</string>
 </resources>

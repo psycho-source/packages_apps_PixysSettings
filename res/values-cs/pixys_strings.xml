@@ -25,51 +25,13 @@
     <string name="quick_settings_summary">Přizpůsobte si Rychlá Nastavení</string>
     <string name="lockscreen">Zamykací obrazovka</string>
     <string name="lockscreen_summary">Přizpůsobte si vaši zamikací obrazovku</string>
-    <string name="miscellaneous_category">Ostatní</string>
-    <string name="miscellaneous_category_summary">Přizpůsobení s různými nastaveními</string>
-    <string name="notification_category">Notifikace</string>
-    <string name="gesture_settings_title">Gesta</string>
     <!--3-Finger screenshot-->
-    <string name="three_finger_gesture">Gesto třemi prsty</string>
-    <string name="three_finger_gesture_summary">Pořídit snímek obrazovky přejetím třemi prsty</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Resetovat</string>
-    <string name="cancel">Zrušit</string>
-    <string name="save">Uložit</string>
-    <string name="general_category">Obecné</string>
-    <string name="gestures_category">Gesta</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Výběr barvy</string>
-    <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
-    <string name="set">Nastavit</string>
-    <string name="color_default">Výchozí</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrace při dotyku</string>
-    <string name="quick_settings_vibrate_summary">Vibrovat při dotyku QS dlaždice</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">Animace</string>
-    <string name="qs_tile_animation_style_title">Styl animace</string>
-    <string name="qs_tile_animation_duration_title">Délka animace</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolace animace dlaždic</string>
-    <string name="qs_tile_animation_style_off">Bez animace</string>
-    <string name="qs_tile_animation_style_flip">Překlopit</string>
-    <string name="qs_tile_animation_style_rotate">Otočení</string>
-    <string name="qs_tile_animation_duration_low">Nízká</string>
-    <string name="qs_tile_animation_duration_default">Výchozí</string>
-    <string name="qs_tile_animation_duration_fast">Rychle</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlené</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalené</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročení</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Dvojím poklepání na zamykací obrazovku uvedete zařízení do režimu spánku</string>
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Uspat dvojitým poklepáním na stavovou lištu</string>
     <!-- Buttons backlight timeout -->
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
@@ -103,14 +65,13 @@
     <!-- Smart Pixels -->
     <!-- Aggressive battery -->
     <!-- Incall vibrate options -->
-    <!-- QS blur -->
     <!-- Toast app icon -->
     <!-- Battery Bar -->
-    <!-- QuickSettings Panel Transparency -->
-    <!-- AOSP Gestures -->
+    <!-- Gestures -->
     <!-- Old mobile icon -->
     <!-- StatusBar -->
     <!-- Network traffic -->
-    <string name="traffic_title">Indikátor síťového provozu</string>
-    <string name="network_traffic_title">Síťový provoz</string>
+    <!-- Lockscreen battery info indicator  -->
+    <!-- R Notification headers -->
+    <!-- QS edit icon -->
 </resources>

@@ -56,12 +56,13 @@
     <!-- Smart Pixels -->
     <!-- Aggressive battery -->
     <!-- Incall vibrate options -->
-    <!-- QS blur -->
     <!-- Toast app icon -->
     <!-- Battery Bar -->
-    <!-- QuickSettings Panel Transparency -->
-    <!-- AOSP Gestures -->
+    <!-- Gestures -->
     <!-- Old mobile icon -->
     <!-- StatusBar -->
     <!-- Network traffic -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- R Notification headers -->
+    <!-- QS edit icon -->
 </resources>
