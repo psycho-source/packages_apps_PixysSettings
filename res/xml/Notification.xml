@@ -29,7 +29,7 @@
             android:summary="@string/heads_up_notifications_summary"
             android:defaultValue="true" />
 
-        <com.pixys.settings.preferences.SystemSettingMasterSwitchPreference
+       <com.pixys.settings.preferences.SystemSettingSwitchPreference 
             android:key="notification_sound_vib_screen_on"
             android:title="@string/notification_sound_vib_screen_on_title"
             android:summary="@string/notification_sound_vib_screen_on_summary"
