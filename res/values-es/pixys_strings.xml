@@ -426,4 +426,12 @@
     <!-- QS edit icon -->
     <string name="qs_edit_title">Editar icono</string>
     <string name="qs_edit_summary">Habilitar botón para editar accesos rápidos</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activar la linterna</string>
+    <string name="double_tap_power_flashlight_screen_summary">Activar la linterna al apagar la pantalla</string>
+    <string name="double_tap_power_flashlight_title">Con la pantalla apagada el botón de encendido enciende la linterna</string>
+    <string name="torch_power_button_gesture_none">Desactivado</string>
+    <string name="torch_power_button_gesture_dt">Encender/Apagar la linterna al pulsar dos veces el botón de encendido</string>
+    <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender la linterna</string>
+    <!-- Rounded corners -->
 </resources>

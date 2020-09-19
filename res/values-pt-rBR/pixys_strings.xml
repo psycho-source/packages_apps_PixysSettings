@@ -426,4 +426,12 @@
     <!-- QS edit icon -->
     <string name="qs_edit_title">Ícone de edição</string>
     <string name="qs_edit_summary">Ativar o ícone de edição no cabeçalho</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Ativar a lanterna</string>
+    <string name="double_tap_power_flashlight_screen_summary">Ativar a lanterna com a tela desligada</string>
+    <string name="double_tap_power_flashlight_title">Desligar a lanterna com o botão liga/desliga</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga para ativar a lanterna</string>
+    <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
+    <!-- Rounded corners -->
 </resources>

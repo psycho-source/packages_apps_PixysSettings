@@ -143,7 +143,7 @@
     <!-- About PixysOS -->
     <string name="pixys_about_info">О нас</string>
     <string name="pixys_about_summary">Наша команда и цель</string>
-    <string name="pixys_about_info_summary">PixysOS - это прошивка на базе AOSP которая предлагает стандартный интерфейс с минимальной кастомизацией. PixysOS вмещает в себя разные прелести других прошивок. PixysOS имеет гладкий, а что самое главное быстрый интерфейс. Мв всегда стараемся добавить больше функций, и улучшать уже имеющейся функции.</string>
+    <string name="pixys_about_info_summary">PixysOS - это прошивка на базе AOSP которая предлагает стандартный интерфейс с минимальной кастомизацией. PixysOS вмещает в себя разные прелести других прошивок. PixysOS имеет гладкий, а что самое главное быстрый интерфейс. Мы всегда стараемся добавить больше функций, и улучшать уже имеющейся функции.</string>
     <string name="dev_info">Про PixysOS</string>
     <string name="leads">Разработчики</string>
     <string name="github">GitHub</string>
@@ -426,4 +426,17 @@
     <!-- QS edit icon -->
     <string name="qs_edit_title">Значок редактирования быстрых настроек</string>
     <string name="qs_edit_summary">Показывать иконку редактирования быстрых настроек</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Включить фонарик</string>
+    <string name="double_tap_power_flashlight_screen_summary">Активировать фонарик при выключенном экране</string>
+    <string name="double_tap_power_flashlight_title">Включение фонарика долгим нажатием кнопки питания</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Закругления</string>
+    <string name="corner_radius">Радиус скругления углов</string>
+    <string name="content_padding">Отступ углов</string>
+    <string name="corner_fwvals_title">Использовать значения фрэймворка</string>
+    <string name="corner_fwvals_summary">Использовать значения по умолчанию для вашего устройства</string>
 </resources>
