@@ -34,8 +34,6 @@ public class PixysSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-        addPreferencesFromResource(R.xml.pixys_settings);
     }
 
     @Override
