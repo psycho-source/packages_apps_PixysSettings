@@ -17,18 +17,23 @@
 
 package com.pixys.settings;
 
-import android.os.Bundle;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
-import androidx.fragment.app.FragmentActivity;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import com.android.settings.R;
 
-public class PixysSettings extends FragmentActivity {
+public class PixysSettings extends Fragment {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        super.setContentView(R.layout.pixys_settings_layout);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.pixys_settings_layout, container, false);
+        return view;
     }
 
 }
