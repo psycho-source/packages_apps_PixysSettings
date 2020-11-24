@@ -16,4 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pixys_settings_title">Explore</string>
     <string name="pixys_settings_dashboard_summary">Explore the Goodies</string>
+    <string name="pixys_statusbar_dashboard_title">Status Bar</string>
+    <string name="pixys_statusbar_dashboard_summary">Some description pls!</string>
 </resources>
