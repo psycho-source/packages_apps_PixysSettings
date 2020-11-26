@@ -18,4 +18,16 @@
     <string name="pixys_settings_dashboard_summary">Explore the Goodies</string>
     <string name="pixys_statusbar_dashboard_title">Status Bar</string>
     <string name="pixys_statusbar_dashboard_summary">Some description pls!</string>
+    <string name="pixys_qs_dashboard_title">Quick Settings</string>
+    <string name="pixys_qs_dashboard_summary">Some description pls!</string>
+    <string name="pixys_notifications_dashboard_title">Notifications</string>
+    <string name="pixys_notifications_dashboard_summary">Some description pls!</string>
+    <string name="pixys_buttons_dashboard_title">Buttons</string>
+    <string name="pixys_buttons_dashboard_summary">Some description pls!</string>
+    <string name="pixys_lockscreen_dashboard_title">Lockscreen</string>
+    <string name="pixys_lockscreen_dashboard_summary">Some description pls!</string>
+    <string name="pixys_gestures_dashboard_title">Gestures</string>
+    <string name="pixys_gestures_dashboard_summary">Some description pls!</string>
+    <string name="pixys_misc_dashboard_title">Miscellaneous</string>
+    <string name="pixys_misc_dashboard_summary">Some description pls!</string>
 </resources>

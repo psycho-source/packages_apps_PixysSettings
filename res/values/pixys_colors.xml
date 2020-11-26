@@ -12,5 +12,11 @@
 -->
 <resources>
     <color name="homepage_pixys_background">#536dfe</color>
-    <color name="homepage_statusbar_background">#2196F3</color>
+    <color name="pixys_homepage_statusbar_background">#2196F3</color>
+    <color name="pixys_homepage_statusbar_background">#72B70F</color>
+    <color name="pixys_homepage_statusbar_background">#FF7E0F</color>
+    <color name="pixys_homepage_statusbar_background">#01B1AF</color>
+    <color name="pixys_homepage_statusbar_background">#C14CE6</color>
+    <color name="pixys_homepage_statusbar_background">#536dfe</color>
+    <color name="pixys_homepage_statusbar_background">#F15B8D</color>
 </resources>
