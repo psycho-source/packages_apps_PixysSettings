@@ -58,7 +58,7 @@ public class PixysSettings extends SettingsPreferenceFragment implements PixysPr
 
     @Override
     public void onPixysPreferenceScreenChange(Fragment fragment) {
-        fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
+        fragmentManager.beginTransaction().replace(R.id.content, fragment).addToBackStack(null).commit();
     }
 
 }

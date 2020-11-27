@@ -63,11 +63,17 @@ public class PixysExploreFragment extends Fragment implements View.OnClickListen
         if (id == R.id.pixys_statusbar) {
             onPreferenceClick.onPixysPreferenceScreenChange(new PixysStatusbarFragment());
         } else if (id == R.id.pixys_quicksettings) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysQsFragment());
         } else if (id == R.id.pixys_notification) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysNotificationFragment());
         } else if (id == R.id.pixys_buttons) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysButtonsFragment());
         } else if (id == R.id.pixys_lockscreen) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysLockscreenFragment());
         } else if (id == R.id.pixys_gestures) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysGesturesFragment());
         } else if (id == R.id.pixys_miscellaneous) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new PixysMiscFragment());
         }
     }
     
