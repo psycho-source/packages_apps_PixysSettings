@@ -26,8 +26,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.android.settings.PixysPreferenceScreenChangeListener;
-import com.android.settings.PixysSettings;
+import com.pixys.settings.PixysPreferenceScreenChangeListener;
+import com.pixys.settings.PixysSettings;
 import com.android.settings.R;
 
 public class PixysExploreFragment extends Fragment implements View.OnClickListener {

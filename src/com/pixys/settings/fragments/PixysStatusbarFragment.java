@@ -17,6 +17,8 @@
 
 package com.pixys.settings.fragments;
 
+import android.os.Bundle;
+import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.settings.R;
@@ -29,7 +31,7 @@ public class PixysStatusbarFragment extends SettingsPreferenceFragment implement
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.status_bar);
+        addPreferencesFromResource(R.xml.pixys_settings_statusbar);
     }
 
     @Override
