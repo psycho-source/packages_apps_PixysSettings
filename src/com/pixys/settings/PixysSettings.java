@@ -32,7 +32,7 @@ import android.widget.RelativeLayout;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.pixys.settings.fragments.ExploreFragment;
+import com.pixys.settings.fragments.PixysExploreFragment;
 
 public class PixysSettings extends SettingsPreferenceFragment implements PixysPreferenceScreenChangeListener {
 
@@ -46,7 +46,7 @@ public class PixysSettings extends SettingsPreferenceFragment implements PixysPr
 
         fragmentManager = getChildFragmentManager();
 
-        fragmentManager.beginTransaction().replace(R.id.content, new ExploreFragment()).commit();
+        fragmentManager.beginTransaction().replace(R.id.content, new PixysExploreFragment()).commit();
 
         return view;
     }
