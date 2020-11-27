@@ -59,22 +59,15 @@ public class PixysExploreFragment extends Fragment implements View.OnClickListen
     @Override
     public void onClick(View v) {
         PixysPreferenceScreenChangeListener onPreferenceClick = (PixysPreferenceScreenChangeListener) getParentFragment();
-        switch (v.getId()) {
-            case R.id.pixys_statusbar:
-                onPreferenceClick.onPixysPreferenceScreenChange(new PixysStatusbarFragment());
-                break;
-            case R.id.pixys_quicksettings:
-                break;
-            case R.id.pixys_notification:
-                break;
-            case R.id.pixys_buttons:
-                break;
-            case R.id.pixys_lockscreen:
-                break;
-            case R.id.pixys_gestures:
-                break;
-            case R.id.pixys_miscellaneous:
-                break;
+        int id = v.getId();
+        if (id == R.id.pixys_statusbar) {
+            onPreferenceClick.onPixysPreferenceScreenChange(new SettingsFragment());
+        } else if (id == R.id.pixys_quicksettings) {
+        } else if (id == R.id.pixys_notification) {
+        } else if (id == R.id.pixys_buttons) {
+        } else if (id == R.id.pixys_lockscreen) {
+        } else if (id == R.id.pixys_gestures) {
+        } else if (id == R.id.pixys_miscellaneous) {
         }
     }
     

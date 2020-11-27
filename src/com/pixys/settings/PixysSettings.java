@@ -32,6 +32,8 @@ import android.widget.RelativeLayout;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.pixys.settings.fragments.ExploreFragment;
+
 public class PixysSettings extends SettingsPreferenceFragment implements PixysPreferenceScreenChangeListener {
 
     FragmentManager fragmentManager;
