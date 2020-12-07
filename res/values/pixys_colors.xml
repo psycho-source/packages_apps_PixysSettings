@@ -19,4 +19,5 @@
     <color name="pixys_homepage_lockscreen_background">#C14CE6</color>
     <color name="pixys_homepage_gestures_background">#536dfe</color>
     <color name="pixys_homepage_misc_background">#F15B8D</color>
+    <color name="pixys_homepage_about_background">#6F86DA</color>
 </resources>

@@ -30,4 +30,6 @@
     <string name="pixys_gestures_dashboard_summary">Some description pls!</string>
     <string name="pixys_misc_dashboard_title">Miscellaneous</string>
     <string name="pixys_misc_dashboard_summary">Some description pls!</string>
+    <string name="pixys_about_dashboard_title">About PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Some description pls!</string>
 </resources>

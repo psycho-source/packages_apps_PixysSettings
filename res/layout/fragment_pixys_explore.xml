@@ -33,7 +33,7 @@
                 android:id="@+id/pixys_statusbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Status Bar"
+                android:text="@string/pixys_statusbar_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -41,7 +41,7 @@
                 android:id="@+id/pixys_statusbar_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_statusbar_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_statusbar_title"/>
 
@@ -77,7 +77,7 @@
                 android:id="@+id/pixys_qs_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Quick Settings"
+                android:text="@string/pixys_qs_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -85,7 +85,7 @@
                 android:id="@+id/pixys_qs_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_qs_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_qs_title"/>
 
@@ -121,7 +121,7 @@
                 android:id="@+id/pixys_notif_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Notifications"
+                android:text="@string/pixys_notifications_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -129,7 +129,7 @@
                 android:id="@+id/pixys_notif_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_notifications_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_notif_title"/>
 
@@ -165,7 +165,7 @@
                 android:id="@+id/pixys_buttons_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Buttons"
+                android:text="@string/pixys_buttons_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -173,7 +173,7 @@
                 android:id="@+id/pixys_buttons_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_buttons_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_buttons_title"/>
 
@@ -209,7 +209,7 @@
                 android:id="@+id/pixys_lock_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lockscreen"
+                android:text="@string/pixys_lockscreen_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -217,7 +217,7 @@
                 android:id="@+id/pixys_lock_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_lockscreen_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_lock_title"/>
 
@@ -253,7 +253,7 @@
                 android:id="@+id/pixys_gestures_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gestures"
+                android:text="@string/pixys_gestures_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -261,7 +261,7 @@
                 android:id="@+id/pixys_gestures_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_gestures_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_gestures_title"/>
 
@@ -297,7 +297,7 @@
                 android:id="@+id/pixys_misc_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Miscellaneous"
+                android:text="@string/pixys_misc_dashboard_title"
                 android:textSize="16sp"
                 android:textColor="?android:textColorPrimary"/>
 
@@ -305,9 +305,63 @@
                 android:id="@+id/pixys_misc_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom Descriptions here"
+                android:text="@string/pixys_misc_dashboard_summary"
                 android:textColor="?android:textColorSecondary"
                 android:layout_below="@id/pixys_misc_title"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginHorizontal="62dp"
+        android:layout_marginVertical="8dp"
+        android:background="?android:textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/pixys_miscellaneous"/>
+
+    <RelativeLayout
+        android:id="@+id/pixys_about"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/divider">
+
+        <ImageView
+            android:id="@+id/pixys_about_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_homepage_pixys_about"
+            android:layout_centerVertical="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_toEndOf="@id/pixys_about_icon"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/pixys_about_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_about_dashboard_title"
+                android:textSize="16sp"
+                android:textColor="?android:textColorPrimary"/>
+
+            <TextView
+                android:id="@+id/pixys_about_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_about_dashboard_summary"
+                android:textColor="?android:textColorSecondary"
+                android:layout_below="@id/pixys_about_title"/>
 
         </RelativeLayout>
 

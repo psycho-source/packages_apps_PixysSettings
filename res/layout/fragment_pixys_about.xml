@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pixys_core_category_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="8dp"
+            android:text="Core Team"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pixys_core_team_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingBottom="8dp"
+            android:clipToPadding="false"
+            android:nestedScrollingEnabled="true"
+            android:layout_below="@id/pixys_core_category_header"/>
+
+        <TextView
+            android:id="@+id/pixys_devices_category_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="8dp"
+            android:text="Official Devices"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_below="@id/pixys_core_team_recycler"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pixys_devices_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingBottom="8dp"
+            android:clipToPadding="false"
+            android:nestedScrollingEnabled="true"
+            android:layout_below="@id/pixys_devices_category_header"/>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

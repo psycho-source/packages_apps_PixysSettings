@@ -1,0 +1,87 @@
+[
+  {
+    "category": "Team leads",
+    "members": [
+      {
+        "name": "Subins Mani",
+        "role": "Founder and Lead Source maintainer",
+        "url": "https://t.me/Subinsmani"
+      },
+      {
+        "name": "Shreejoy Dash",
+        "role": "API and Website developer",
+        "url": "https://t.me/Shreejoy_Dash"
+      },
+      {
+        "name": "Aswin A S Kurup",
+        "role": "Source maintainer",
+        "url": "https://t.me/aswin_a_s"
+      }
+    ]
+  },
+  {
+    "category": "Development team",
+    "members": [
+      {
+        "name": "Nishant",
+        "role": "App developer",
+        "url": "https://t.me/psycho_mods"
+      },
+      {
+        "name": "Karthik Reddy",
+        "role": "App developer",
+        "url": "https://t.me/karthikgaddam4"
+      },
+      {
+        "name": "Vipin Mishra",
+        "role": "Website developer",
+        "url": "https://t.me/thevipinmishra"
+      },
+      {
+        "name": "Vijay",
+        "role": "UX/UI designer",
+        "url": "https://t.me/Moredukhi_69"
+      }
+    ]
+  },
+  {
+    "category": "Moderators",
+    "members": [
+      {
+        "name": "Akshay Kakatkar",
+        "role": "",
+        "url": "https://t.me/KakatkarAkshay"
+      },
+      {
+        "name": "Nishant Singh",
+        "role": "",
+        "url": "https://t.me/tesla59"
+      }
+    ]
+  },
+  {
+    "category": "Supporting Team",
+    "members": [
+      {
+        "name": "Sipun Kumar Mahanta",
+        "role": "",
+        "url": "https://t.me/Darkstar085"
+      },
+      {
+        "name": "Rahul Yadav",
+        "role": "",
+        "url": "https://t.me/rahul9999xda"
+      },
+      {
+        "name": "Akshay Kumar",
+        "role": "",
+        "url": "https://t.me/Akianonymus"
+      },
+      {
+        "name": "Rohan Hasabe",
+        "role": "",
+        "url": "https://t.me/Hasaber8"
+      }
+    ]
+  }
+]
