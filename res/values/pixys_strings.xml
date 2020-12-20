@@ -32,4 +32,15 @@
     <string name="pixys_misc_dashboard_summary">Some description pls!</string>
     <string name="pixys_about_dashboard_title">About PixysOS</string>
     <string name="pixys_about_dashboard_summary">Some description pls!</string>
+    <string name="pixys_about_info">PixysOS is an AOSP based Rom which provides stock UI/UX with minimal customisations. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP, it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Browse our source code</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Join our facebook page</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Join our telegram discussion group</string>
+    <string name="pixys_about_contact_website_header">Download Center</string>
+    <string name="pixys_about_contact_website_description">Visit our website for downloads and more</string>
+    <string name="pixys_core_category_header">Core Team</string>
+    <string name="pixys_devices_category_header">Official Devices</string>
 </resources>

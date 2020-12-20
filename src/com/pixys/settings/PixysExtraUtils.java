@@ -6,10 +6,9 @@ import android.util.Log;
 import org.json.JSONArray;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
 
@@ -18,10 +17,10 @@ public class PixysExtraUtils {
 
     private static final String DEVICES_JSON = "https://raw.githubusercontent.com/PixysOS/official_devices/eleven/devices.json";
 
-    public static JSONArray parseJsonFromFile(File json) {
+    public static JSONArray parseJsonFromFile(Context context, String json) {
         JSONArray res = null;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(json));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(context.openFileInput(json)));
             StringBuilder str = new StringBuilder();
             String l;
             while ((l = reader.readLine()) != null) {
@@ -71,6 +70,9 @@ public class PixysExtraUtils {
             reader.close();
             is.close();
             res = new JSONArray(str.toString());
+            OutputStreamWriter jsonWriter = new OutputStreamWriter(context.openFileOutput("devices.json", Context.MODE_PRIVATE));
+            jsonWriter.write(str.toString());
+            jsonWriter.close();
         } catch (Exception e) {
             Log.e("PixysSettings", "parseDevicesJson: Failed to parse devices JSON", e);
         }

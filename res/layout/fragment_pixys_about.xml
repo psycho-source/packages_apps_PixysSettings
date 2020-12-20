@@ -1,56 +1,299 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="vertical"
-    android:fillViewport="true">
+    android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/pixys_about_info_card"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/pixys_about_info_logo"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pixys_logo" />
 
         <TextView
-            android:id="@+id/pixys_core_category_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:paddingStart="8dp"
-            android:text="Core Team"
-            android:textSize="18sp"
-            android:textColor="?android:textColorPrimary"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/pixys_core_team_recycler"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="16dp"
-            android:paddingBottom="8dp"
-            android:clipToPadding="false"
-            android:nestedScrollingEnabled="true"
-            android:layout_below="@id/pixys_core_category_header"/>
-
-        <TextView
-            android:id="@+id/pixys_devices_category_header"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:paddingStart="8dp"
-            android:text="Official Devices"
-            android:textSize="18sp"
-            android:textColor="?android:textColorPrimary"
-            android:layout_below="@id/pixys_core_team_recycler"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/pixys_devices_recycler"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="16dp"
-            android:paddingBottom="8dp"
-            android:clipToPadding="false"
-            android:nestedScrollingEnabled="true"
-            android:layout_below="@id/pixys_devices_category_header"/>
+            android:layout_below="@id/pixys_about_info_logo"
+            android:layout_marginTop="8dp"
+            android:text="@string/pixys_about_info"
+            android:textAlignment="center" />
 
     </RelativeLayout>
 
-</androidx.core.widget.NestedScrollView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pixys_about_contact_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pixys_about_info_card"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true"
+        app:strokeColor="?android:textColorHint"
+        app:strokeWidth="0.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp">
+
+            <RelativeLayout
+                android:id="@+id/pixys_about_contact_github"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/pixys_about_contact_github_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_settings_pixys_about_github" />
+
+                <TextView
+                    android:id="@+id/pixys_about_contact_github_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/pixys_about_contact_github_logo"
+                    android:text="@string/pixys_about_contact_github_header"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pixys_about_contact_github_header"
+                    android:layout_toEndOf="@id/pixys_about_contact_github_logo"
+                    android:text="@string/pixys_about_contact_github_description"
+                    android:textColor="?android:textColorSecondary" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pixys_about_contact_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pixys_about_contact_github"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/pixys_about_contact_facebook_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_settings_pixys_about_facebook" />
+
+                <TextView
+                    android:id="@+id/pixys_about_contact_facebook_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/pixys_about_contact_facebook_logo"
+                    android:text="@string/pixys_about_contact_facebook_header"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pixys_about_contact_facebook_header"
+                    android:layout_toEndOf="@id/pixys_about_contact_facebook_logo"
+                    android:text="@string/pixys_about_contact_facebook_description"
+                    android:textColor="?android:textColorSecondary" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pixys_about_contact_telegram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pixys_about_contact_facebook"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/pixys_about_contact_telegram_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_settings_pixys_about_telegram" />
+
+                <TextView
+                    android:id="@+id/pixys_about_contact_telegram_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/pixys_about_contact_telegram_logo"
+                    android:text="@string/pixys_about_contact_telegram_header"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pixys_about_contact_telegram_header"
+                    android:layout_toEndOf="@id/pixys_about_contact_telegram_logo"
+                    android:text="@string/pixys_about_contact_telegram_description"
+                    android:textColor="?android:textColorSecondary" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pixys_about_contact_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pixys_about_contact_telegram"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/pixys_about_contact_website_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_settings_pixys_about_website" />
+
+                <TextView
+                    android:id="@+id/pixys_about_contact_website_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/pixys_about_contact_website_logo"
+                    android:text="@string/pixys_about_contact_website_header"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pixys_about_contact_website_header"
+                    android:layout_toEndOf="@id/pixys_about_contact_website_logo"
+                    android:text="@string/pixys_about_contact_website_description"
+                    android:textColor="?android:textColorSecondary" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pixys_core_category_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pixys_about_contact_card"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="12dp"
+        app:rippleColor="@android:color/transparent"
+        app:strokeColor="?android:textColorHint"
+        app:strokeWidth="0.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/pixys_core_category_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_core_category_header"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/pixys_core_expand_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_settings_pixys_expand" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pixys_core_team_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pixys_core_category_header"
+                android:layout_marginTop="16dp"
+                android:nestedScrollingEnabled="false"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pixys_devices_category_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pixys_core_category_card"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="12dp"
+        app:rippleColor="@android:color/transparent"
+        app:strokeColor="?android:textColorHint"
+        app:strokeWidth="0.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/pixys_devices_category_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_devices_category_header"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/pixys_devices_expand_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_settings_pixys_expand" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pixys_devices_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pixys_devices_category_header"
+                android:layout_marginTop="16dp"
+                android:nestedScrollingEnabled="false"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
