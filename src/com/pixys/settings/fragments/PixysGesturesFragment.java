@@ -17,21 +17,25 @@
 
 package com.pixys.settings.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.provider.SearchIndexableResource;
 import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 
+import com.android.settings.gestures.GestureSettings;
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
+
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
-public class PixysGesturesFragment extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+@SearchIndexable
+public class PixysGesturesFragment extends GestureSettings implements Indexable {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        addPreferencesFromResource(R.xml.pixys_settings_gestures);
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
     }
 
     @Override
@@ -40,8 +44,27 @@ public class PixysGesturesFragment extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        return true;
+    public boolean onPreferenceTreeClick(Preference preference) {
+        return super.onPreferenceTreeClick(preference);
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER = new BaseSearchIndexProvider() {
+
+        @Override
+        public List<SearchIndexableResource> getXmlResourcesToIndex(Context context, boolean enabled) {
+            ArrayList<SearchIndexableResource> result = new ArrayList<SearchIndexableResource>();
+            SearchIndexableResource searchIndexableResource = new SearchIndexableResource(context);
+            searchIndexableResource.xmlResId = R.xml.pixys_settings_gestures;
+            result.add(searchIndexableResource);
+            return result;
+        }
+
+        @Override
+        public List<String> getNonIndexableKeys(Context context) {
+            List<String> keys = super.getNonIndexableKeys(context);
+            return keys;
+        }
+
+    };
 
 }
